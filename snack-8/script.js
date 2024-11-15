@@ -32,7 +32,7 @@ students.forEach((student) => student.name == "Marco Lanci"
 ? classStudent.class = student.class 
 : "non trovato");
 
-console.log(classStudent);
+console.log(classStudent.class);
 //console.log(classStudentString);    ////con stringa
 
 //find
