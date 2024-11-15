@@ -13,8 +13,8 @@ const posts = [
 //forEach
 const authorName = [];
 posts.forEach((names) => authorName.push(names.author));
-//console.log(authorName);
+console.log(authorName);
 
 //map
 const authorNames2 = posts.map((names) => names.author);
-//console.log(authorNames2);
+console.log(authorNames2);

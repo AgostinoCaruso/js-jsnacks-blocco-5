@@ -6,7 +6,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 //qua visto che devo tornare un nuovo array o lo creo con for each esterno
 const arrayNum = [];
 numbers.forEach((num) => arrayNum.push(num+1));
-//console.log(arrayNum);
+console.log(arrayNum);
 
 //oppure con un map che torna automaticamente un array uguale a quello dato, ovviamente lo devo assegnare ad una costante o let senno non salvo i dati
 
