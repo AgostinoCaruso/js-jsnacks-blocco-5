@@ -12,3 +12,20 @@ const zucchine = [
 ];
 
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
+
+//essendo che devo iterare per tutto l'array MA ritornare solo alcuni elementi di esso devo usare la filter e non la map, posso usare sempre il forEach
+
+const zuccLunghe = [];
+const zuccCorte = [];
+
+zucchine.forEach((zucchina) => zucchina.length >= 15 ? zuccLunghe.push(zucchina) : zuccCorte.push(zucchina));
+//console.log(zuccLunghe);
+
+console.log("lunghe");
+for(const zucchina of zuccLunghe){
+  console.log(zucchina);
+}
+console.log("corte");
+for(const zucchina of zuccCorte){
+  console.log(zucchina);
+}
