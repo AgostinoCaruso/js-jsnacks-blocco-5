@@ -29,3 +29,9 @@ console.log("corte");
 for(const zucchina of zuccCorte){
   console.log(zucchina);
 }
+
+const zuccLunghe2 = zucchine.filter((zucchina) => zucchina.length >= 15 ? zucchina : 0);
+const zuccCorte2 = zucchine.filter((zucchina) => zucchina.length >= 15 ? 0 : zucchina);
+
+console.log(zuccLunghe2);
+console.log(zuccCorte2);
