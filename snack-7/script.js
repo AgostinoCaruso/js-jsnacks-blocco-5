@@ -24,6 +24,9 @@ const students = [
 
 //qui devo soltanto recuperare un oggetto tramite una key e devo usare il find, oppure sempre il forEach
 
-let studentObj = [];
+let studentObj = {};
 students.forEach((student) => student.id === 2 ? studentObj = student : "non trovato");
+console.log(studentObj);
+
+const studentObj2 = students.find((student) => student.id === 2 ? student : "non trovato");
 console.log(studentObj);
