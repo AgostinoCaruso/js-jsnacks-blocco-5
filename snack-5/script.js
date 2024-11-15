@@ -10,3 +10,8 @@ const numsEven = [];
 nums.forEach((num) => num % 2 == 0 ? numsEven.push(num) : 0);
 
 console.log(numsEven);
+
+//filter
+const numsEven2 = nums.filter((num) => num % 2 == 0 ? numsEven.push(num) : 0);
+
+console.log(numsEven2);
