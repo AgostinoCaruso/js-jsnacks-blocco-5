@@ -6,3 +6,6 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+//qua come per l'esempio di prima visto che non devo tornare nulla, posso usare un forEach, andando a prendere la propietà dell'oggetto 
+people.forEach((person) => console.log(person.name));
