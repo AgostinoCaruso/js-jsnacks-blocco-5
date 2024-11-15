@@ -36,9 +36,9 @@ console.log(classStudent.class);
 //console.log(classStudentString);    ////con stringa
 
 //find
-const classStudent2 = students.find((student) => student.name == "Marco Lanci" ? student.class : "non trovato");
-
-console.log(classStudent2.class);
+//const classStudent2 = students.find((student) => student.name == "Marco Lanci" ? student.class : "non trovato");
+const classStudent2 = students.find((student) => student.name == "Marco Lanci").class;
+console.log(classStudent2);
 
 //destrutturazione 
 const {class : studentClass } = students.find((nameStudent) => nameStudent.name =="Marco Lanci");
